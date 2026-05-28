@@ -8,8 +8,8 @@ public class Game {
             throw new IllegalArgumentException();
         }
 
-        for(char number : guessnumber.toCharArray()) {
-            if(number <0 || number > 9) {
+        for (char number : guessnumber.toCharArray()) {
+            if (number < 0 || number > 9) {
                 throw new IllegalArgumentException();
             }
         }
